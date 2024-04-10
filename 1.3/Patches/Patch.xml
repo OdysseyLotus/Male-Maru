@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Maru"]/alienRace/generalSettings/alienPartGenerator/useGenderedHeads</xpath>
+		<value>
+			<useGenderedHeads>true</useGenderedHeads>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Maru"]/alienRace/generalSettings/alienPartGenerator/alienbodytypes</xpath>
+		<value>
+			<li>Male</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Maru"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/offsets/south/bodyTypes</xpath>
+		<value>
+			<Male>(-0.418,0.221)</Male>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Maru"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/offsets/north/bodyTypes</xpath>
+		<value>
+			<Male>(0.003,0.536)</Male>
+		</value>
+	</Operation>
+			
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Maru"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/offsets/east/bodyTypes</xpath>
+		<value>
+			<Male>(-0.434,0.212)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Maru"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[2]/offsets/south/bodyTypes</xpath>
+		<value>
+			<Male>(-0.418,0.221)</Male>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Maru"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[2]/offsets/north/bodyTypes</xpath>
+		<value>
+			<Male>(0.003,0.536)</Male>
+		</value>
+	</Operation>
+			
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Maru"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[2]/offsets/east/bodyTypes</xpath>
+		<value>
+			<Male>(-0.434,0.212)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Maru"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[3]/offsets/south/bodyTypes</xpath>
+		<value>
+			<Male>(-0.421,0.5035)</Male>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Maru"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[3]/offsets/north/bodyTypes</xpath>
+		<value>
+			<Male>(-0.0,0.8314)</Male>
+		</value>
+	</Operation>
+			
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Maru"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[3]/offsets/east/bodyTypes</xpath>
+		<value>
+			<Male>(-0.4474,0.506)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Maru"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[4]/offsets/south/bodyTypes</xpath>
+		<value>
+			<Male>(-0.421,0.5035)</Male>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Maru"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[4]/offsets/north/bodyTypes</xpath>
+		<value>
+			<Male>(-0.0,0.8314)</Male>
+		</value>
+	</Operation>
+			
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Maru"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[4]/offsets/east/bodyTypes</xpath>
+		<value>
+			<Male>(-0.4474,0.506)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Maru"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[5]/offsets/south/bodyTypes</xpath>
+		<value>
+			<Male>(-0.421,0.5035)</Male>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Maru"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[5]/offsets/north/bodyTypes</xpath>
+		<value>
+			<Male>(-0.0,0.8314)</Male>
+		</value>
+	</Operation>
+			
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Maru"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[5]/offsets/east/bodyTypes</xpath>
+		<value>
+			<Male>(-0.4474,0.506)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Maru"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[6]/offsets/south/bodyTypes</xpath>
+		<value>
+			<Male>(-0.421,0.5035)</Male>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Maru"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[6]/offsets/north/bodyTypes</xpath>
+		<value>
+			<Male>(-0.0,0.8314)</Male>
+		</value>
+	</Operation>
+			
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Maru"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[6]/offsets/east/bodyTypes</xpath>
+		<value>
+			<Male>(-0.4474,0.506)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.BackstoryDef[@Name = "MaruBackStory"]/bodyTypeMale</xpath>
+		<value>
+			<bodyTypeMale>Male</bodyTypeMale>
+		</value>
+	</Operation>
+	
+	<!-- Hair -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="MRHair_2"]/styleGender</xpath>
+		<value>
+			<styleGender>FemaleUsually</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="MRHair_3"]/styleGender</xpath>
+		<value>
+			<styleGender>Female</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="MRHair_4"]/styleGender</xpath>
+		<value>
+			<styleGender>FemaleUsually</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="MRHair_5"]/styleGender</xpath>
+		<value>
+			<styleGender>FemaleUsually</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="MRHair_6"]/styleGender</xpath>
+		<value>
+			<styleGender>Female</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="MRHair_7"]/styleGender</xpath>
+		<value>
+			<styleGender>Female</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="MRHair_8"]/styleGender</xpath>
+		<value>
+			<styleGender>FemaleUsually</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="MRHair_9"]/styleGender</xpath>
+		<value>
+			<styleGender>FemaleUsually</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="MRHair_10"]/styleGender</xpath>
+		<value>
+			<styleGender>Female</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="MRHair_11"]/styleGender</xpath>
+		<value>
+			<styleGender>FemaleUsually</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="MRHair_13"]/styleGender</xpath>
+		<value>
+			<styleGender>Female</styleGender>
+		</value>
+	</Operation>
+	
+</Patch>

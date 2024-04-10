@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RulePackDef>
+		<defName>NamerMaruFemale</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[BengaliFemaleFirst] [BengaliLast]</li>
+				<li>name->[ChineseFemaleFirst] [ChineseLast]</li>
+				<li>name->[HindiFemaleFirst] [HindiLast]</li>
+				<li>name->[KazakhFemaleFirst] [KazakhLast]</li>
+				<li>name->[MongolianFemaleFirst] [MongolianLast]</li>
+				<li>name->[NepaliFemaleFirst] [NepaliLast]</li>
+				<li>name->[PakistaniFemaleFirst] [PakistaniLast]</li>
+				<li>name->[PunjabiFemaleFirst] [PunjabiLast]</li>
+				<li>name->[RussianFemaleFirst] [RussianLast]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>BengaliFemaleFirst->NameBanks/BengaliFemaleFirst</li>
+				<li>BengaliLast->NameBanks/BengaliLast</li>
+				<li>ChineseFemaleFirst->NameBanks/ChineseFemaleFirst</li>
+				<li>ChineseLast->NameBanks/ChineseLast</li>
+				<li>HindiFemaleFirst->NameBanks/HindiFemaleFirst</li>
+				<li>HindiLast->NameBanks/HindiLast</li>
+				<li>KazakhFemaleFirst->NameBanks/KazakhFemaleFirst</li>
+				<li>KazakhLast->NameBanks/KazakhLast</li>
+				<li>MongolianFemaleFirst->NameBanks/MongolianFemaleFirst</li>
+				<li>MongolianLast->NameBanks/MongolianLast</li>
+				<li>NepaliFemaleFirst->NameBanks/NepaliFemaleFirst</li>
+				<li>NepaliLast->NameBanks/NepaliLast</li>
+				<li>PakistaniFemaleFirst->NameBanks/PakistaniFemaleFirst</li>
+				<li>PakistaniLast->NameBanks/PakistaniLast</li>
+				<li>PunjabiFemaleFirst->NameBanks/PunjabiFemaleFirst</li>
+				<li>PunjabiLast->NameBanks/PunjabiLast</li>
+				<li>RussianFemaleFirst->NameBanks/RussianFemaleFirst</li>
+				<li>RussianLast->NameBanks/RussianLast</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+	
+	<RulePackDef>
+		<defName>NamerMaruMale</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[BengaliMaleFirst] [BengaliLast]</li>
+				<li>name->[ChineseMaleFirst] [ChineseLast]</li>
+				<li>name->[HindiMaleFirst] [HindiLast]</li>
+				<li>name->[KazakhMaleFirst] [KazakhLast]</li>
+				<li>name->[MongolianMaleFirst] [MongolianLast]</li>
+				<li>name->[NepaliMaleFirst] [NepaliLast]</li>
+				<li>name->[PakistaniMaleFirst] [PakistaniLast]</li>
+				<li>name->[PunjabiMaleFirst] [PunjabiLast]</li>
+				<li>name->[RussianMaleFirst] [RussianLast]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>BengaliMaleFirst->NameBanks/BengaliMaleFirst</li>
+				<li>BengaliLast->NameBanks/BengaliLast</li>
+				<li>ChineseMaleFirst->NameBanks/ChineseMaleFirst</li>
+				<li>ChineseLast->NameBanks/ChineseLast</li>
+				<li>HindiMaleFirst->NameBanks/HindiMaleFirst</li>
+				<li>HindiLast->NameBanks/HindiLast</li>
+				<li>KazakhMaleFirst->NameBanks/KazakhMaleFirst</li>
+				<li>KazakhLast->NameBanks/KazakhLast</li>
+				<li>MongolianMaleFirst->NameBanks/MongolianMaleFirst</li>
+				<li>MongolianLast->NameBanks/MongolianLast</li>
+				<li>NepaliMaleFirst->NameBanks/NepaliMaleFirst</li>
+				<li>NepaliLast->NameBanks/NepaliLast</li>
+				<li>PakistaniMaleFirst->NameBanks/PakistaniMaleFirst</li>
+				<li>PakistaniLast->NameBanks/PakistaniLast</li>
+				<li>PunjabiMaleFirst->NameBanks/PunjabiMaleFirst</li>
+				<li>PunjabiLast->NameBanks/PunjabiLast</li>
+				<li>RussianMaleFirst->NameBanks/RussianMaleFirst</li>
+				<li>RussianLast->NameBanks/RussianLast</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+	
+</Defs>

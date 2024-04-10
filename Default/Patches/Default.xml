@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Maru"]/alienRace/generalSettings/maleGenderProbability</xpath>
+		<value>
+			<maleGenderProbability>0.5</maleGenderProbability>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Maru"]/race</xpath>
+		<value>
+			<nameGeneratorFemale>NamerMaruFemale</nameGeneratorFemale>
+			<nameGenerator>NamerMaruMale</nameGenerator>
+		</value>
+	</Operation>
+
+</Patch>

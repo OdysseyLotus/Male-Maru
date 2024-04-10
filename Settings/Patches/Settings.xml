@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	
+	<Operation Class="XmlExtensions.UseSetting">
+		<modId>MaleMaru</modId>
+		<key>MaleMaruProbSlider</key>
+		<apply>
+			<Operation Class="PatchOperationReplace">
+				<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Maru"]/alienRace/generalSettings/maleGenderProbability</xpath>
+				<value>
+					<maleGenderProbability>{MaleMaruProbSlider}</maleGenderProbability>
+				</value>
+			</Operation>
+		</apply>
+	</Operation>
+	
+	<Operation Class="XmlExtensions.OptionalPatch">
+		<modId>MaleMaru</modId>
+		<key>MaleMaruCustomNamer</key>
+		<defaultValue>true</defaultValue>
+		<caseTrue>
+			<Operation Class="PatchOperationAdd">
+				<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Maru"]/race</xpath>
+				<value>
+					<nameGeneratorFemale>NamerMaruFemale</nameGeneratorFemale>
+					<nameGenerator>NamerMaruMale</nameGenerator>
+				</value>
+			</Operation>
+		</caseTrue>
+	</Operation>
+
+</Patch>

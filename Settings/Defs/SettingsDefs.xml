@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<XmlExtensions.SettingsMenuDef>
+		<defName>MaleMaruSettings</defName> <!--Can be anything unique with no periods-->
+		<modId>MaleMaru</modId> <!--MUST be the same as the one entered earlier-->    
+		<label>Male Maru</label> <!-- This is what displays as your mod's name-->    
+		<settings> <!--This is where you define what settings are in the settings menu-->
+			<li Class="XmlExtensions.Setting.Slider">
+				<key>MaleMaruProbSlider</key>
+				<label>Male Maru: {MaleMaruProbSlider}. The chance for a male Maru to spawn, from 0 (0%) to 1 (100%). </label>
+				<defaultValue>0.5</defaultValue>
+				<min>0.00</min>
+				<max>1.00</max>
+				<decimals>2</decimals>
+			</li>
+			<li Class="XmlExtensions.Setting.Checkbox">
+				<label>Use the custom namer for Maru.</label>
+				<key>MaleMaruCustomNamer</key>
+				<defaultValue>true</defaultValue>
+				<highlight>true</highlight>
+			</li>
+			<li Class="XmlExtensions.Setting.ResetSettings"/>
+		</settings>
+	</XmlExtensions.SettingsMenuDef>
+
+</Defs>
