@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Maru"]/alienRace/generalSettings/alienPartGenerator/headTypes</xpath>
+		<value>
+			<li>MRheadmale_one</li>
+			<li>MRheadmale_two</li>
+			<li>MRheadmale_three</li>
+			<li>MRheadmale_four</li>
+			<li>MRheadmale_five</li>
+			<li>MRheadmale_six</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Maru"]/alienRace/generalSettings/alienPartGenerator/bodyTypes</xpath>
+		<value>
+			<li>Male</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Maru"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[5]/conditions</xpath>
+		<value>
+			<Gender>Female</Gender>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Maru"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[6]/conditions</xpath>
+		<value>
+			<Gender>Female</Gender>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Maru"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[7]/conditions</xpath>
+		<value>
+			<Gender>Female</Gender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Maru"]/alienRace/generalSettings/alienPartGenerator/bodyAddons</xpath>
+		<value>
+			<li> <!--헤어윗레이어-->
+				<path>marulike/Hairs/MaleAddon/MRHair</path>
+				<conditions>
+					<BodyPart>
+						<bodyPart>Head</bodyPart>
+					</BodyPart>
+					<Gender>Male</Gender>
+				</conditions>
+				<extendedGraphics>
+					<Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="Ghoul">marulike/Ghoul/hair/MaleAddon/MRHair</Hediff>
+				</extendedGraphics>
+				<inFrontOfBody>true</inFrontOfBody>
+				<colorChannel>base</colorChannel>
+				<drawSize>1</drawSize>
+				<angle>0</angle>
+				<defaultOffset>Tail</defaultOffset>
+				<shaderType>Cutout</shaderType>
+				<offsets>
+					<south>
+						<bodyTypes>
+							<Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
+						</bodyTypes>
+						<offset>(-0.42,0.22)</offset>
+						<layerOffset>-0.273</layerOffset>
+					</south>
+
+					<north>
+						<bodyTypes>
+							<Child MayRequire="Ludeon.RimWorld.Biotech">(0,0.01)</Child>
+						</bodyTypes>
+						<offset>(0,0.55)</offset>
+						<layerOffset>-0.325</layerOffset>
+					</north>
+
+					<east>
+						<bodyTypes>
+							<Child MayRequire="Ludeon.RimWorld.Biotech">(-0.01,-0.002)</Child>
+						</bodyTypes>
+						<offset>(-0.42,0.22)</offset>
+						<layerOffset>-0.273</layerOffset>
+					</east>
+
+					<west>
+						<bodyTypes>
+							<Child MayRequire="Ludeon.RimWorld.Biotech">(-0.01,-0.002)</Child>
+						</bodyTypes>
+						<offset>(-0.42,0.22)</offset>
+						<layerOffset>-0.273</layerOffset>
+					</west>
+				</offsets>
+				<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+				<alignWithHead>true</alignWithHead>
+			</li>
+			<li>
+				<path>marulike/Hairs/MaleAddonB/MRHairB</path>
+				<conditions>
+					<BodyPart>
+						<bodyPart>Head</bodyPart>
+					</BodyPart>
+					<Gender>Male</Gender>
+					<Posture>
+							<drawnStanding>true</drawnStanding>
+							<drawnInBed>false</drawnInBed>
+					</Posture>
+				</conditions>
+				<inFrontOfBody>true</inFrontOfBody>
+				<colorChannel>base</colorChannel>
+				<drawSize>1</drawSize>
+				<angle>0</angle>
+				<defaultOffset>Tail</defaultOffset>
+				<shaderType>Cutout</shaderType>
+				<linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+				<offsets>
+					<south>
+						<bodyTypes>
+							<Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
+						</bodyTypes>
+						<offset>(-0.42,0.22)</offset>
+						<layerOffset>-1.273</layerOffset>
+					</south>
+
+					<north>
+						<bodyTypes>
+							<Child MayRequire="Ludeon.RimWorld.Biotech">(0,0.01)</Child>
+						</bodyTypes>
+						<offset>(0,0.55)</offset>
+						<layerOffset>-0.13</layerOffset>
+					</north>
+
+					<east>
+						<bodyTypes>
+							<Child MayRequire="Ludeon.RimWorld.Biotech">(-0.01,-0.002)</Child>
+						</bodyTypes>
+						<offset>(-0.42,0.22)</offset>
+						<layerOffset>-1.273</layerOffset>
+					</east>
+
+					<west>
+						<bodyTypes>
+							<Child MayRequire="Ludeon.RimWorld.Biotech">(-0.01,-0.002)</Child>
+						</bodyTypes>
+						<offset>(-0.42,0.22)</offset>
+						<layerOffset>-1.273</layerOffset>
+					</west>
+				</offsets>
+				<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+				<alignWithHead>true</alignWithHead>
+			</li>
+            <li>
+				<path>marulike/Hairs/MaleAddonC/MRHairB</path>
+				<conditions>
+					<BodyPart>
+						<bodyPart>Head</bodyPart>
+						<bodyPartLabel>Head</bodyPartLabel>
+					</BodyPart>
+					<Gender>Male</Gender>
+				</conditions>
+				<inFrontOfBody>true</inFrontOfBody>
+				<colorChannel>base</colorChannel>
+				<drawSize>1</drawSize>
+				<angle>0</angle>
+				<defaultOffset>Tail</defaultOffset>
+				<shaderType>Cutout</shaderType>
+				<linkVariantIndexWithPrevious>true</linkVariantIndexWithPrevious>
+				<offsets>
+					<south>
+						<bodyTypes>
+							<Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
+						</bodyTypes>
+						<offset>(-0.42,0.22)</offset>
+						<layerOffset>-1.273</layerOffset>
+					</south>
+
+					<north>
+						<bodyTypes>
+							<Child MayRequire="Ludeon.RimWorld.Biotech">(0,0.01)</Child>
+						</bodyTypes>
+						<offset>(0,0.55)</offset>
+						<layerOffset>-0.13</layerOffset>
+					</north>
+
+					<east>
+						<bodyTypes>
+							<Child MayRequire="Ludeon.RimWorld.Biotech">(-0.01,-0.002)</Child>
+						</bodyTypes>
+						<offset>(-0.42,0.22)</offset>
+						<layerOffset>-1.273</layerOffset>
+					</east>
+
+					<west>
+						<bodyTypes>
+							<Child MayRequire="Ludeon.RimWorld.Biotech">(-0.01,-0.002)</Child>
+						</bodyTypes>
+						<offset>(-0.42,0.22)</offset>
+						<layerOffset>-1.273</layerOffset>
+					</west>
+				</offsets>
+				<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+				<alignWithHead>true</alignWithHead>
+            </li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Maru"]/alienRace/graphicPaths/head</xpath>
+		<value>
+			<head>
+				<path>marulike/Heads/</path>
+				<extendedGraphics>
+					<Gender For="Male">marulike/Heads/Male_MRhead</Gender>
+					<Gender For="Female">marulike/Heads/Female_MRhead</Gender>
+					<Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="Ghoul">
+						<path>marulike/Ghoul/head/</path>
+						<extendedGraphics>
+							<Gender For="Male">marulike/Ghoul/head/Male_MRhead</Gender>
+							<Gender For="Female">marulike/Ghoul/head/Female_MRhead</Gender>
+						</extendedGraphics>
+					</Hediff>
+				</extendedGraphics>
+			</head>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Maru"]/alienRace/graphicPaths/body</xpath>
+		<value>
+			<body>
+				<path>marulike/Bodies/</path>
+				<extendedGraphics>
+					<Gender For="Male">
+						<path>marulike/Bodies/Naked_Male</path>
+						<extendedGraphics>
+							<Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="Ghoul">marulike/Ghoul/Body/Naked_Male</Hediff>
+						</extendedGraphics>
+					</Gender>
+					<Gender For="Female">
+						<path>marulike/Bodies/Naked_Female</path>
+						<extendedGraphics>
+							<Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="Ghoul">marulike/Ghoul/Body/Naked_Female</Hediff>
+						</extendedGraphics>
+					</Gender>
+					<Age For="MR_HumanlikeBaby">
+						<path>marulike/Bodies/Naked_Baby</path>
+					</Age>
+					<Age For="MR_HumanlikeChild">
+						<path>marulike/Bodies/Naked_Child</path>
+						<extendedGraphics>
+							<Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="Ghoul">marulike/Ghoul/Body/Naked_Baby</Hediff>
+						</extendedGraphics>
+					</Age>
+					<Age For="MR_HumanlikeTeenager">
+						<path>marulike/Bodies/Naked_Teenager</path>
+						<extendedGraphics>
+							<Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="Ghoul">marulike/Ghoul/Body/Naked_Teenager</Hediff>
+						</extendedGraphics>
+					</Age>
+				</extendedGraphics>
+			</body>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Maru"]/alienRace/graphicPaths/apparel</xpath>
+		<value>
+			<apparel>
+				<individualPaths>
+					<li>
+						<key>Apparel_BodyStrap</key>
+						<value>marulike/VanillaTex/Apparel_BodyStrap</value>
+					</li>
+					<li>
+						<key>Apparel_Collar</key>
+						<value>marulike/VanillaTex/Apparel_Collar</value>
+					</li>
+				</individualPaths>
+			</apparel>
+		</value>
+	</Operation>
+	
+	
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.AlienBackstoryDef[@Name="MaruBackStory"]/bodyTypeMale</xpath>
+		<value>
+			<bodyTypeMale>Male</bodyTypeMale>
+		</value>
+	</Operation>
+	
+	
+	
+	<!-- Hair -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="MRHair_2"]/styleGender</xpath>
+		<value>
+			<styleGender>FemaleUsually</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="MRHair_3"]/styleGender</xpath>
+		<value>
+			<styleGender>Female</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="MRHair_4"]/styleGender</xpath>
+		<value>
+			<styleGender>FemaleUsually</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="MRHair_5"]/styleGender</xpath>
+		<value>
+			<styleGender>FemaleUsually</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="MRHair_6"]/styleGender</xpath>
+		<value>
+			<styleGender>Female</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="MRHair_7"]/styleGender</xpath>
+		<value>
+			<styleGender>Female</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="MRHair_8"]/styleGender</xpath>
+		<value>
+			<styleGender>FemaleUsually</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="MRHair_9"]/styleGender</xpath>
+		<value>
+			<styleGender>FemaleUsually</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="MRHair_10"]/styleGender</xpath>
+		<value>
+			<styleGender>Female</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="MRHair_11"]/styleGender</xpath>
+		<value>
+			<styleGender>FemaleUsually</styleGender>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HairDef[defName="MRHair_13"]/styleGender</xpath>
+		<value>
+			<styleGender>Female</styleGender>
+		</value>
+	</Operation>
+	
+</Patch>
